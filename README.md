@@ -1,4 +1,4 @@
-# wp-backup
+# wordpress-backup-bash
 
 A simple bash script for automated WordPress backups. Dumps the MySQL database and compresses the `wp-content` directory, with automatic rotation to keep your backup directory from growing indefinitely.
 
@@ -23,7 +23,7 @@ A simple bash script for automated WordPress backups. Dumps the MySQL database a
 
 ```bash
 git clone https://github.com/alanpinnt/wordpress-backup-bash.git
-cd wp-backup
+cd wordpress-backup-bash
 cp .env.example .env
 # Edit .env with your WordPress path and backup directory
 chmod +x wp-backup.sh
