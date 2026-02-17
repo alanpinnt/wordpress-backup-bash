@@ -22,7 +22,7 @@ A simple bash script for automated WordPress backups. Dumps the MySQL database a
 ## Quick Start
 
 ```bash
-git clone https://github.com/yourusername/wp-backup.git
+git clone https://github.com/alanpinnt/wordpress-backup-bash.git
 cd wp-backup
 cp .env.example .env
 # Edit .env with your WordPress path and backup directory
